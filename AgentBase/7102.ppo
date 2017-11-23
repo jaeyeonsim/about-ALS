@@ -1,0 +1,51 @@
+###############################################################################
+# (C) Copyright 2009. Ahn Lab, Inc.
+#
+# Any part of this source code can not be copied with
+# any method without prior written permission from
+# the author or authorized person.
+#
+# File Name	: [제품번호].ppo
+# Author		: Lee SolMea
+# Descrtption	: AhnPoApi PPO Templet
+#
+###############################################################################
+
+###############################################################################
+# protocole Version  
+###############################################################################
+
+[CFG_VERSION]
+Version=1
+
+###############################################################################
+# 관리 제품 기본 환경 설정.
+###############################################################################
+[CONFIG]
+
+APCPRODUCTID  =	 7102
+NAME = V3Net60
+EnvModule	  = ApcRgCmd.exe
+CommandModule = ApcRgCmd.exe
+
+POLICYFILENAME	  =  V3Net60Policy.xml
+RUNCOMMANDFILENAME = V3Net60RunCmd.xml
+
+REG_ROOT = HKEY
+REG_TARGET = SOFTWARE\Ahnlab\APC2\Policy Agent
+REG_VALUE  = 
+
+###############################################################################
+# Policy Section 
+###############################################################################
+[SET_POLICY]
+
+###############################################################################
+# Command Section 
+###############################################################################
+[SET_COMMAND]
+
+
+
+
+

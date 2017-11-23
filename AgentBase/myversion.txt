@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspector>
+           <description>내PC지키미 점검을 위한 S/W 정보</description>
+           <version>20150303-001</version>
+           <software>
+                     <product>
+                                <description>한글/PDF 최신버전 정보</description>
+                                <product>
+                                          <name>HWP</name><!-- name은 수정하지 마세요. -->
+                                          <company>(주)한글과 컴퓨터</company>
+                                          <version>
+                                                     <name>한글 2002</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared</path>
+                                                                <key>HNC Path</key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename>HWP\HWP.EXE</filename>
+                                                     <lastversion>5.7.9.3086</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>한글 2004</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared\Install Information\Hwp2004\Path</path>
+                                                                <key></key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename>hwp60\hwp.exe</filename>
+                                                     <lastversion>6.0.5.810</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>한글 2005</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared\Install Information\hwp2005</path>
+                                                                <key>Path</key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename>hwp65\hwp.exe</filename>
+                                                     <lastversion>6.7.10.1132</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>한글 2005 normal</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared\HncUpdate\Hwp2005_normal</path>
+                                                                <key>FilePath</key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename></filename>
+                                                     <lastversion>6.7.10.1132</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>한글 2007</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared\HncUpdate\Hwp2007</path>
+                                                                <key>FilePath</key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename></filename>
+                                                     <lastversion>7.5.12.730</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>한글 2010</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared\HncUpdate\Hwp80</path>
+                                                                <key>FilePath</key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename></filename>
+                                                     <lastversion>8.5.8.1485</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>한글 오피스 2010</name>
+                                                     <registry>
+                                                     <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared\HNCUpdate\HOffice80\Hwp80</path>
+                                                     <key>FilePath</key>
+                                                     <type>1</type>
+                                                     <value />
+                                                     </registry>
+                                                     <filename />
+                                                     <lastversion>8.5.8.1485</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>한글 2014</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\HNC\Shared\HncUpdate\HOffice90\Hwp90</path>
+                                                                <key>FilePath</key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename></filename>
+                                                     <lastversion>9.1.0.2702</lastversion>
+                                          </version>                                          
+                                </product>
+                                <product>
+                                          <name>Adobe Acrobat Reader</name><!-- name은 수정하지 마세요. -->
+                                          <company>Adobe Systems Incorporated.</company>
+                                          <version>
+                                                     <name>Acrobat Reader 8</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Acrobat Reader\8.0\InstallPath</path>
+                                                                <key></key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename>AcroRd32.exe</filename>
+                                                     <lastversion>8.3.1</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>Acrobat Reader 9</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Acrobat Reader\9.0\InstallPath</path>
+                                                                <key></key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename>AcroRd32.exe</filename>
+                                                     <lastversion>9.5.5</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>Acrobat Reader 10</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Acrobat Reader\10.0\InstallPath</path>
+                                                                <key></key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename>AcroRd32.exe</filename>
+                                                     <lastversion>10.1.16</lastversion>
+                                          </version>
+                                          <version>
+                                                     <name>Acrobat Reader 11</name>
+                                                     <registry>
+                                                                <path>HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Acrobat Reader\11.0\InstallPath</path>
+                                                                <key></key>
+                                                                <type>1</type>
+                                                                <value></value>
+                                                     </registry>
+                                                     <filename>AcroRd32.exe</filename>
+                                                     <lastversion>11.0.13</lastversion>
+                                          </version>
+										  <version>
+													<name>Acrobat Reader DC</name>
+													<registry>
+														<path>HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Acrobat Reader\DC\InstallPath</path>
+														<key />
+														<type>1</type>
+														<value />
+													</registry>
+													<filename>AcroRd32.exe</filename>
+													<lastversion>15.009.20077</lastversion>
+										</version>
+                                </product>
+								<product>
+									<name>Adobe Flash Player</name>				
+									<company>Adobe Systems Incorporated.</company>				
+									<version>
+										<name>Adobe Flash Player</name>
+										<registry>
+											<path>HKEY_LOCAL_MACHINE\SOFTWARE\Macromedia\FlashPlayerActiveX</path>
+											<key>Version</key>
+											<type>2</type>
+											<value />
+										</registry>
+										<filename />
+										<lastversion>19.0.0.226</lastversion>
+									</version>
+								</product>								
+                     </product>
+           </software>
+</inspector>
+
+

@@ -1,0 +1,276 @@
+[COMMON]
+;//////////////////////////////////////////////////////////////////////////////Start
+;//----------------------------------------
+;// °øÅë
+;//----------------------------------------
+IDOK = Aceptar
+IDCANCEL = Cancelar
+IDAPPLY = &Aplicar
+IDADD = Agregar
+IDMODIFY = Editar
+IDDELETE = Borrar
+IDCLOSE = Cerrar
+IDYES = Si
+IDNO = No
+IDALLYES = Si a Todo
+IDALLNO = No a Todo
+IDHELP = &Ayuda
+;//////////////////////////////////////////////////////////////////////////////End
+
+[rcmain.resources]
+MSG_GET_VIEWER_INFO_FAIL= No se pude obterner información del Agente de Soporte.
+MSG_NOT_REGISTER_VIEWER=Agente de Soporte no Registrado
+MSG_INVALID_CONNECT_TRY=Conexion Invalida
+MSG_CANNOT_CONNECT_SELF=No se puede conectar a si mismo.
+MSG_NOT_EXIST_VIEWER_RETRY=No hay Agente de Soporte esperado. Refresque su navegador.
+
+[rcengine.resources]	
+MSG_NORMAL_TITLE=RemoteCall
+MSG_NORMAL_TITLE_RVIEW=RemoteView
+MSG_NORMAL_TITLE_NATEON=NateOn Remote Control
+MSG_NORMAL_TITLE_MJS=iCompass
+MSG_NORMAL_TITLE_NTT=RemoteCall
+MSG_NORMAL_TITLE_UBISUPPORTER=UbiSupporter
+MSG_REMOTE_CONNECT_TRYING=Conectando
+MSG_REMOTE_CONNECT_FAIL=La Conexión Fallo.
+MSG_FILERECEIVE_TITLE=Transferencia de Archivo
+MSG_FILERECEIVE_QUESTION=El Agente de Soporte esta tratando de enviar %d archivo(s).\nDesea aceptar?
+MSG_SFTP_TITLE=Transferencia de Archivo
+MSG_FILERECEIVE_REMOTE_REJECT=La transferencia de archivo fue negada por el receptor.
+MSG_FILESEND_SIZE_OVERFLOW=Exced el tamano de archivo para transferencia. El tamano maximo es %d MB.
+MSG_REMOTE_CONNECT_TRYING_TITLE=Conectando
+MSG_DOING_SUPPORT_VIEWER=Soporte Remoto en Session
+MSG_DOING_SUPPORT_VIEWER_RVIEW=Control Remoto en Session
+MSG_DOING_SUPPORT_VIEWER_NATEON=NateOn Remoto Control
+MSG_DOING_SUPPORT_TRANSLATE_MSG=soportando...
+MSG_DOING_CONTROL_TRANSLATE_MSG=Conectado
+MSG_REBOOT_AND_RECONNECT_QUESTION=El Agente de Soporte solicita autorización para auto reconexion despues de reiniciar su computadora.\nDesea autorizar?
+MSG_ALLSHARE_TITLE=COmpartiendo Pantalla Completa
+MSG_ALLSHARE_QUESTION=El cliente solicita compartir la pantalla completa..\nDesea autorizar?
+MSG_UPDATE_NEED_REMOTE_PRINTER_DRIVER=El driver de la Impresora Remota ha sido actualizado!\nEs necesario desinstalar la versi?n anterior del driver de impresora remota e instalar el nuevo driver para usar la impresora remota.
+MSG_CANNOT_USE_RECONNECT_GUIDE=Not support Reboot & Reconnect for Window Vista Limited User.
+
+[rcengine.appshselector]
+IDC_TITLE=Seleccionar aplicación para compartir
+IDC_PROGRAM_SELECT_STATIC=Seccionar Aplicación
+IDC_APPSHARE_SELECT_MSG_STATIC=Seleccionar de la lista la aplicación a compartir o arrastra la herramiento localizadora por arriba de la venta y seleccionala, luego deja de presionar el boton del raton
+IDB_REFRESH=Refrescar
+IDB_SHARE_FULL=Todo
+IDB_SHARE=Selecciona
+IDCANCEL=Cancelar
+
+[rcengine.appshareconfirm]
+IDC_TITLE=Confirmar aplicación a compartir
+IDC_SHARE_CONFIRM_MSG_STATIC=El cliente solicita compartir la lista de aplicaciones.\nDesea autorizar?
+IDC_SHARE_ALLOW=Si(&S)
+IDCANCEL=No(&N)
+
+[rcengine.connectpopupdlg]	
+MSG_NOT_SUPPORT_DIRETORY_SEND=La transderencia de folder no es soportada por esta version
+MSG_REMOTE_SUPPORT_STOP_QUESTION=Desea terminar con la session?
+IDC_SUPPORT_MSG_STATIC=Conectando con el Agente de Soporte
+IDC_SUPPORT_MSG_STATIC_RVIEW=COnectandose a la computadora remota
+IDC_SUPPORTING_MSG_STATIC=Soporte en session
+IDC_SUPPORTING_MSG_STATIC_RVIEW=Control del Cliente en session
+IDC_KBDMOUSE_GET=Para detener el control del raton/teclado, presione\n"Ctrl + Alt + Shift". 
+IDC_KBDMOUSE_PASS=Permitir control de raton/teclado :
+IDC_KBDMOUSE_SEND_OK=Aceptar
+IDC_DISCONNECT=Desconectar
+MSG_REMOTE_PRINTER_INSTALL_SUCCESS=Instalación de driver para impresora remota finalizada.
+MSG_REMOTE_PRINTER_REMOVE_SUCCESS=Eliminación de driver para impresora remota finalizada.
+MSG_REMOTE_PRINTER_INSTALL_FAIL=Falla al instalar driver de impresora ramota.
+MSG_REMOTE_PRINTER_REMOVE_FAIL=Falla al eliminar driver de impresora remota.
+
+[rcengine.filesendconfirmdlg]	
+IDC_TITLE=File Transfer
+IDC_SFTP_SEND_MSG_STAIC=El Agente de Soporte esta tratando de enviar %d archivo(s). Oprima enviar para Transferir los archivos.
+MSG_FILESEND_QUESTION=Desea enviar archivo(s)?
+MSG_FILESEND_CONFIRM_TITLE=Transferencia de Archivo
+IDOK=Enviar
+IDCANCEL=Cancelar
+
+[rcengine.kbdmouseallowdlg]	
+IDC_TITLE=Solicitar control raton/teclado
+IDC_KBDMOUSE_ALLOW_MSG=El Agente de Soporte solicita control de raton/teclado. Desea permitir?
+IDC_MOUSE_CHECK=Raton
+IDC_KBD_CHECK=Teclado
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+[rcengine.simpleftpprocessdlg]	
+IDC_SEND_TITLE=Transferir Arvhivo(s)
+IDC_RECEIVE_TITLE=Recibir Archivo(s)
+IDC_TRANSFER_STOP=Detener
+MSG_FILESEND_CANCEL_TITLE=Cancelar Transferencia de Archivo
+MSG_FILESEND_CANCEL=Esta seguro que desea cancelar la transferencia de archivo?
+MSG_FILERECEIVE_CANCEL_TITLE=Cancelar recepción de Archivo.
+MSG_FILERECEIVE_CANCEL=Seguro que desea cancelar recepción de archivo?
+
+[rcengine.SFTPLink.DIALOG]
+ID_CAPTION = Confirmación de archivo Recibido
+IDCS_EXIST =La carpeta ya contiene un archivo con el nombre '%s'.
+IDCS_OLDFILE = Archivo Existente
+IDCS_NEWFILE = Desea remplazar el archivo existente?
+IDC_CHECK_LINK = Continuar recibiendo
+IDCS_FILE_DATE = Modificado %m/%d/%Y %H:%M:%S
+IDOK = Si
+IDNO = No
+IDALLOK= Si a Todo
+IDCANCEL= Cancelar
+
+[rcengine.tray.menu]	
+ID_ALLWAYS_ONTOP=Ventana Guia siempre por encima de todas
+ID_DRAW_REQUEST=&Dibujar
+ID_CHAT_REQUEST=&Chat
+ID_PROCLIST_REQUEST=Información de &Procesos
+ID_SYSINFO_REQUEST=Información de &Sistema
+ID_CAMREC=&Grabación
+ID_FILE_SEND=&Transferencia de Archivo
+ID_RECV_FOLDER_OPEN=&Ver Archivos Recibidos
+ID_REMOTE_PRINTER_DRIVER_CONTROL_INSTALL=&Instalar Impresora Remota
+ID_REMOTE_PRINTER_DRIVER_CONTROL_REMOVE=Re&mover Impresora Remota
+ID_SHAREAPP_SEL=Compartir &Aplicación
+ID_CLOSE=&Teminar Session de Soporte Remoto
+
+[rcchat.resources]	
+IDC_TITLE=Chat
+IDC_SEND=Eviar
+IDC_SEND_MESSAGE=El Cliente dice :
+IDC_RECV_MESSAGE=El Agente dice :
+
+[rcchat.menu]	
+ID_FILE=&Archivo
+ID_FILE_SAVE_CHAT=&Guardar Mensaje
+ID_FILE_EXIT=&Salir
+ID_TOOL=&Herramientas
+ID_TOOL_ALWAYS_TOP=Siempre por &encima
+
+
+[rcprocl.resources]	
+IDC_TITLE=Procesos
+IDC_PROCESS_REFRESH=Refrescar
+IDC_PROCESS_KILL=Terminar Proceso
+IDC_PROCESS_CLOSE=Cerrar
+IDC_COLUMN_FILENAME=Nombre de Archivo
+IDC_PROCESS_KILL_TITLE=Terminar Proceso
+IDC_PROCESS_KILL_MSG=Esta seguro que desea terminar %s?
+IDC_PROCESS_LIST_LOADING=Cargando Información de Proceso.
+IDC_PROCESS_LIST_INFORMATION=Información de Proceso de la Computadora %s
+
+ID_PATH_COPY=Copy
+ID_LIST_COPY=Lista Copy
+
+[rcsysinfo.resources]	
+IDC_TITLE=Información de Sistema
+IDC_SYSINFO_REFRESH=Refrescar
+IDC_SYSINFO_INFORMATION=Información de Sistema de la Computadora %s's
+IDC_SYSINFO_LOADING=Cargando Información del Sistema.
+
+[rsproxy.findproxydlg]	
+IDC_TITLE=Servidor Proxy
+IDC_PROXY_SERVER_SELECT_MSG=Selección un Servidor Proxy.
+IDOK=Seleccionar
+IDCANCEL=Cancelar
+
+[rsproxy.proxylogindlg]	
+IDC_TITLE=Login a Servidor de Proxy
+IDC_PROXY_AUTH_INPUT_MSG=Teclear Nombre de Usuario y Contraseña.
+IDC_PROXY_SERVER_MSG=Servidor Proxy :
+IDC_PROXY_ID_MSG=ID de Usuario :
+IDC_PROXY_PWD_MSG=Contraseña :
+IDC_SAVE_CHECK=Guardar
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+[rsproxy.weblogindlg]	
+IDC_TITLE=Login a Servidor de Web
+IDC_WEB_AUTH_INPUT_MSG=Teclear Nombre de Usuario y Contraseña.
+IDC_WEB_SERVER_MSG=Servidor Web :
+IDC_WEB_ID_MSG=ID de Usuario :
+IDC_WEB_PWD_MSG=Contraseña :
+IDC_SAVE_CHECK=Guardar
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+
+[RDRAW.MENU]	
+;//RMarking¿¡¼­ »ç¿ë	Using on Remarking
+;//////////////////////////////////////////////////////////////////////////////Start	
+;//----------------------------------------	
+;// ±×¸®±â ¸Þ´º	Draw Menu
+;//----------------------------------------	
+
+; È­»ìÇ¥	
+ID_DRAW_ARROW = Fecha
+ID_DRAW_ARROW_BOTH = Doble Flecha
+
+; ¶óÀÎ	
+ID_DRAW_LINEWIDTH_1 =1 pixel
+ID_DRAW_LINEWIDTH_2 =2 pixel
+ID_DRAW_LINEWIDTH_3 =3 pixel
+ID_DRAW_LINEWIDTH_4 =4 pixel
+ID_DRAW_LINEWIDTH_5 =5 pixel
+ID_DRAW_LINEWIDTH_6 =6 pixel
+ID_DRAW_LINEWIDTH_7 =7 pixel
+
+; Áö¿ì°³	Eraser
+ID_DRAW_ERASER =Borrador Seleccionada
+ID_DRAW_ERASER_ALL =Borrar Todo
+;//////////////////////////////////////////////////////////////////////////////End	
+[TOOLBAR]
+ID_DRAWTOOLBAR_CAPTION =Drawing
+
+[RText.DIALOG]
+ID_CAPTION = Introduzca el texto a desplegar
+IDCS_STRING = Texto
+IDCS_FONT_NAME = &Fuente
+IDCS_FONT_STYLE = Es&tilo
+IDCS_FONT_SIZE = &Tamaño
+IDCS_TEXT_EFFECT = Efecto
+IDCC_TEXT_EFFECT_STRIKEOUT = Stri&keout
+IDCC_TEXT_EFFECT_UNDERLINE = &Subralyado
+IDCS_TEXT_EFFECT_COLOR = &Color
+IDCS_PRIVIEW = Vista
+IDCS_SCRIPT = Sc&ript
+
+[rcengine.waitconnectdlg]
+ID_CAPTION=Bienvenido
+IDCS_WAITING_MSG=Esperando a ser conectado con el agente de soporte
+IDCANCEL=&Cancelar
+IDCS_WAITCUSTOMER_COUNT_MSG=Clientes esperando Soporte Remoto : %d
+
+[rc40app.resources]
+IDC_TITLE=RemoteCall Client
+IDC_TITLE_MJS=iCompass Client
+IDC_TITLE_NATEON=NateOn Remote Control
+IDC_TITLE_NTT=RemoteCall Client
+IDC_TITLE_UBISUPPORTER=UbiSupporter Client
+
+MSG_CANNOT_VISTA_SUPPORT=Unable to connect.\nPlease contact and tell your representative that your OS is Windows Vista.
+MSG_INVALID_GCODE=PIN Code does not exist. Please contact your representative.
+MSG_INVALID_PINCODE=Invalid Pincode!
+
+IDC_PINCODE_DLG_TITLE=Pincode
+IDC_INPUT_PINCODE_STATIC=Input the pincode.
+IDC_MANUAL_INPUT_STATIC=Pincode :
+IDOK=OK
+
+IDC_REFRESH=Refresh
+IDC_SERVER_ADDRESS=Web Server :
+IDC_COMPANY_ID=Company ID :
+IDC_CONNECT=Connect
+IDC_VIEWER_ID=User ID :
+IDC_CONNECTION_CODE=Session ID :
+;IDC_GCODE_INPUT_MSG_STATIC=Type in the Connection-code at the dictation of the representative and Click the connect button.
+IDC_GCODE_INPUT_MSG_STATIC=Enter Session ID and click "Connect".
+
+IDC_INSTALL_MSG_STATIC=Preparing to connect usually takes only a few seconds. Please wait...
+IDC_INSTALL_DLG_TITLE=Initializing
+
+[RVS.DIALOG]
+ID_CAPTION = Administrador de Presentaciónes
+IDC_RVSPAUSE = Pausa
+IDC_RVSCONTINUE = Continuar
+IDC_RVSCLOSE = Cerrar
+IDC_RVSDRAW = Dibujar
+

@@ -1,0 +1,18 @@
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.17.00)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.18.00)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.18.01)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.18.02)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.18.03)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.19.00)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.19.05)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.20.00)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0
+lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2017.03.22.04)
+RegOpenKey(SOFTWARE\Ahnlab\APC2\Policy Agent\UpdateFlag\NeedUploadInfo) : 0

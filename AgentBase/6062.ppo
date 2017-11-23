@@ -1,0 +1,216 @@
+
+###############################################################################
+# (C) Copyright 2004. Ahn Lab, Inc.
+#
+# Any part of this source code can not be copied with
+# any method without prior written permission from
+# the author or authorized person.
+#
+# File Name	: [제품번호].ppo
+# Author		: Kim, Jae Yeol (pento@ahnlab.com)
+# Descrtption	: AhnPoApi PPO Templet
+#
+# Revision History
+# Date         Name	Description
+# 2005-03-10   Kim, Jae Yeol (Pento@ahnlab.com)	Created
+#
+###############################################################################
+
+###############################################################################
+# protocole Version  
+###############################################################################
+
+[CFG_VERSION]
+Version=1
+
+###############################################################################
+# 관리 제품 기본 환경 설정.
+###############################################################################
+[CONFIG]
+
+[CONFIG]
+
+APCPRODUCTID  =	6062
+NAME          = OM
+EnvModule     = PaPDCfg.dll
+CommandModule = PaPDCfg.dll
+
+REG_ROOT = HKEY
+REG_TARGET = SOFTWARE\Ahnlab\APC2\Policy Agent
+REG_VALUE  = 
+
+# HKEY_LOCAL_MACHINE\SOFTWARE\Ahnlab\APC2\Policy Agent
+
+
+###############################################################################
+# Policy Section 
+###############################################################################
+[SET_POLICY]
+AHNLAB_POLICY/PD_POLICY/EXCEPTIONRULES			= 1,ApcAddExceptionRule
+AHNLAB_POLICY/PD_POLICY/MODE				= 0,ApcSetPolicyMode
+AHNLAB_POLICY/PD_POLICY/PERIOD				= 0,ApcSetPeriod
+AHNLAB_POLICY/PD_POLICY/WEAKFLAG			= 0,ApcSetWeakPointFlag
+AHNLAB_POLICY/PD_POLICY/NTFLAG				= 0,ApcSetNetThrFlag
+AHNLAB_POLICY/PD_POLICY/SPECIALFOLDERFLAG		= 0,ApcSetSpecialFolderFlag
+AHNLAB_POLICY/PD_POLICY/SHAREFOLDERREMOVEFLAG		= 0,ApcSetWeakShareFolderRemove
+AHNLAB_POLICY/PD_POLICY/USERSHAREFOLDERREMOVEFLAG	= 0,ApcSetUserShareFolderRemove
+AHNLAB_POLICY/PD_POLICY/IPCREMOVEFLAG			= 0,ApcSetIPCRemove
+AHNLAB_POLICY/PD_POLICY/WEAKNETBLOCKFLAG		= 0,ApcSetWeakNetBlockFlag
+AHNLAB_POLICY/PD_POLICY/SETPASSWDFLAG			= 0,ApcSetPasswdFlag
+AHNLAB_POLICY/PD_POLICY/NTBLOCKFLAG			= 0,ApcSetNtNetBlockFalg
+AHNLAB_POLICY/PD_POLICY/BLOCKTIMEOUT			= 0,ApcSetNetBlockTimeout
+AHNLAB_POLICY/PD_POLICY/WEAKUSERNOTIFYFLAG		= 0,ApcSetWeakUserNotifyFlag
+AHNLAB_POLICY/PD_POLICY/NTUSERNOTIFYFLAG		= 0,ApcSetNetThrUserNotifyFlag
+AHNLAB_POLICY/PD_POLICY/ADMINNOTIFYFLAG			= 0,ApcSetAdminNotifyFlag
+AHNLAB_POLICY/PD_POLICY/CHECKATBOOTFLAG			= 0,ApcSetCheckAtBootFlag
+AHNLAB_POLICY/PD_POLICY/CRITICALCHECKMAXCPS		= 0,ApcSetMaxCps
+AHNLAB_POLICY/PD_POLICY/PACKETLIMITCOUNT		= 0,ApcSetPacketLimitCount
+AHNLAB_POLICY/PD_POLICY/PACKETCHKTIME			= 0,ApcSetPacketLimitTimeout
+AHNLAB_POLICY/PD_POLICY/TRUSGUARD_FLAG			= 0,ApcSetTrusGuardFlag
+AHNLAB_POLICY/PD_POLICY/TRUSGUARD_IP			= 0,ApcSetTrusGuardIp
+AHNLAB_POLICY/PD_POLICY/TRUSGUARD_PORT			= 0,ApcSetTrusGuardPort
+AHNLAB_POLICY/PD_POLICY/TRUSGUARD_ACTION		= 0,ApcSetTrusGuardAction
+AHNLAB_POLICY/PD_POLICY/DISABLESERVICE			= 0,ApcSetDisableService
+AHNLAB_POLICY/PD_POLICY/WEAKMESSAGE			= 0,ApcSetWeakMessage
+AHNLAB_POLICY/PD_POLICY/NTMESSAGE			= 0,ApcSetNetThrMessage
+AHNLAB_POLICY/PD_POLICY/CHANGEPASSWD			= 0,ApcSetPasswd
+AHNLAB_POLICY/PD_POLICY/TRUSGUARD_URL			= 0,ApcSetTrusGuardUrl
+#AHNLAB_POLICY/PD_POLICY/WEAKPASSWDLIST			= 0,ApcSetWeakPasswdList
+AHNLAB_POLICY/PD_POLICY/TRUSGUARD_PERIOD		= 0,ApcSetTrusGuardPeriod
+#AHNLAB_POLICY/PD_POLICY/TRUSGUARD_TTL			= 0,ApcSetTrusGuardTtl
+
+
+###############################################################################
+# Command Section 
+###############################################################################
+[SET_COMMAND]
+
+###############################################################################
+# Exception Rule Section 
+###############################################################################
+[AHNLAB_EXCEPTION_RULE]
+OMSrv.exe = 1  
+OMP3Mon.exe = 1  
+OMCfgU.exe = 1  
+pasvc.exe = 1 
+amagent.exe = 1 
+patray.exe = 1 
+V3Medic.exe = 1 
+MonSvcNT.exe = 1 
+Monsys32.exe = 1 
+Apf.exe = 1 
+NssServ.exe = 1 
+AszMain.exe = 1 
+AszMon.exe = 1 
+SUpdate.exe = 1 
+sucer.exe = 1 
+Autoup.exe = 1 
+AhnSD.exe = 1 
+AhnSDsv.exe = 1 
+spyzero.exe = 1 
+mfnt.exe = 1 
+mf9x.exe = 1 
+myv3.exe = 1 
+speedup2.exe = 1 
+mysprun.exe = 1 
+vrmtcli.exe = 1
+PdChk.exe = 1
+PaPd.exe = 1
+AMV3PRO.exe = 1
+AmRmCtrl.exe = 1
+AmRdrUrl.exe = 1
+AMPFW2.exe = 1
+AmDmi.exe = 1
+AMASZ.exe = 1
+RsSvc.exe = 1
+RsSetup.exe = 1
+PsWebSrv.exe = 1
+psUpload.exe = 1
+psUpdRrd.exe = 1
+psUpdate.exe = 1
+psSvrMon.exe = 1
+psSvc.exe = 1
+psPs.exe = 1
+psPe.exe = 1
+psNotify.exe = 1
+psLog.exe = 1
+psJs.exe = 1
+psHlth.exe = 1
+psColResc.exe = 1
+psCollect.exe = 1
+psCa.exe = 1
+OmParser.exe = 1
+MpUpdIns.exe = 1
+CleanApc.exe = 1
+Blat.exe = 1
+APCSetWinFw.exe = 1
+ApcNTP.exe = 1
+vrmtview.exe = 1
+NssSvEp2.exe = 1
+MpMon.exe = 1
+MPCon.exe = 1
+grpEdit.exe = 1
+slapd.exe = 1
+caconf.exe = 1
+casvc.exe = 1
+cuisvc.exe = 1
+scoupler.exe = 1
+cautil.exe = 1
+cdist.exe = 1
+cdistapp.exe = 1
+cpatch.exe = 1
+xdist.exe = 1
+csysinfo.exe = 1
+qchain.exe = 1
+apmmgcon.exe = 1
+cfilesvr.exe = 1
+csvcast.exe = 1
+csvccfg.exe = 1
+csvcinf.exe = 1
+csvclog.exe = 1
+csvcpol.exe = 1
+csvcschd.exe = 1
+initdb.exe = 1
+ireposit.exe = 1
+cctrlsvc.exe = 1
+csetcomm.exe = 1
+csrvptch.exe = 1
+AhnRmtVw.exe = 1
+AhnRmCli.exe = 1
+AMRUNST.EXE = 1
+ACAAS.exe  = 1
+ACAIS.exe  = 1
+ACALS.exe  = 1
+ACASP.exe  = 1
+ACAEGMgr.exe  = 1
+ATAPCPlc.exe  = 1
+ATAPCCmd.exe  = 1
+MsProxy.ahn  = 1
+V3Medic.exe  = 1
+V3Patch.ahn  = 1
+V3Self.ahn  = 1
+AFMain.exe  = 1
+AFFunc.ahn  = 1
+V3Min.exe  = 1
+DSRmv.exe  = 1
+DSSfx.exe  = 1
+AFLogVw.exe  = 1
+AFQuaVw.exe  = 1
+XServer.exe = 1
+APCConsole.exe = 1
+APCConsole.vshost.exe = 1
+sqlservr.exe = 1
+6178 = 3
+
+###############################################################################
+# Driver Section 
+###############################################################################
+[PDDRIVER_VERSION]
+PDNFCTRL = 1.0.0.2
+
+
+[TG_DAEMON_PORT]
+
+PORT=6178
+
+

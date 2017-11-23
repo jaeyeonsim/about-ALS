@@ -1,0 +1,279 @@
+[COMMON]
+;//////////////////////////////////////////////////////////////////////////////Start
+;//----------------------------------------
+;// 共通
+;//----------------------------------------
+IDOK = 確認
+IDCANCEL = キャンセル
+IDAPPLY = 適用
+IDADD = 追加
+IDMODIFY = 編集
+IDDELETE = 削除
+IDCLOSE = 閉じる
+IDYES = はい
+IDNO = いいえ
+IDALLYES = 全てはい
+IDALLNO = 全ていいえ
+IDHELP = ヘルプ(&H)
+;//////////////////////////////////////////////////////////////////////////////End
+
+[rcmain.resources]
+MSG_GET_VIEWER_INFO_FAIL=オペレータ情報がありません。
+MSG_NOT_REGISTER_VIEWER=登録されていないオペレータです。
+MSG_INVALID_CONNECT_TRY=無効な接続です。
+MSG_CANNOT_CONNECT_SELF=自分のPCへの接続はできません。確認後再度接続してください。
+MSG_NOT_EXIST_VIEWER_RETRY=オペレータ認証情報がありません。リフレッシュしてください。
+
+[rcengine.resources]
+MSG_NORMAL_TITLE=RemoteCall
+MSG_NORMAL_TITLE_RVIEW=RemoteView
+MSG_NORMAL_TITLE_NATEON=NateOn Remote Control
+MSG_NORMAL_TITLE_MJS=iCompass
+MSG_NORMAL_TITLE_NTT=顧問先サポート
+MSG_NORMAL_TITLE_UBISUPPORTER=UbiSupporter
+MSG_REMOTE_CONNECT_TRYING=リモート接続確認中
+MSG_REMOTE_CONNECT_FAIL=リモートPCへ接続できませんでした。
+MSG_FILERECEIVE_TITLE=ファイル受信確認
+MSG_FILERECEIVE_QUESTION=相手先が %d個のファイルを送信しようとしています。\n承諾しますか？
+MSG_SFTP_TITLE=ファイル転送
+MSG_FILERECEIVE_REMOTE_REJECT=相手先がファイル受信を拒否しました。
+MSG_FILESEND_SIZE_OVERFLOW= %dMB 以上のファイルは転送できません。
+MSG_REMOTE_CONNECT_TRYING_TITLE=接続確認中です。
+MSG_DOING_SUPPORT_VIEWER=オペレータがリモート接続中です。
+MSG_DOING_SUPPORT_VIEWER_RVIEW=相手より遠隔操作中です。
+MSG_DOING_SUPPORT_VIEWER_NATEON=NateOn Remote Control
+MSG_DOING_SUPPORT_TRANSLATE_MSG=リモート接続中
+MSG_DOING_CONTROL_TRANSLATE_MSG=遠隔制御中
+MSG_REBOOT_AND_RECONNECT_QUESTION=オペレータがPCの再起動を要請しました。\n再起動後、オペレータに自動リモート接続を承諾しますか。
+MSG_ALLSHARE_TITLE=全画面共有
+MSG_ALLSHARE_QUESTION=オペレータが全画面共有を要請しました。\n承諾しますか？
+MSG_UPDATE_NEED_REMOTE_PRINTER_DRIVER=RSupport Remote Printer Driverがアップデートされました。\n遠隔プリンター機能を利用する為には既存のドライバーを除去してから再インストールする必要があります。
+MSG_CANNOT_USE_RECONNECT_GUIDE=一般ユーザー権限では「遠隔再接続」機能はご利用できません。
+
+[rcengine.appshselector]
+IDC_TITLE=共有プログラム選択
+IDC_PROGRAM_SELECT_STATIC=プログラム選択
+IDC_APPSHARE_SELECT_MSG_STATIC=以下の一覧から共有プログラムを選択するか右のFinder Toolアイコンを共有するプログラムにドラグアンドドロップしてください。
+IDB_REFRESH=一覧更新
+IDB_SHARE_FULL=全部共有
+IDB_SHARE=選択共有
+IDCANCEL=キャンセル
+
+[rcengine.appshareconfirm]
+IDC_TITLE=プログラム共有要請
+IDC_SHARE_CONFIRM_MSG_STATIC=オペレータが以下のプログラムの共有を要請しました。\n承諾しますか？
+IDC_SHARE_ALLOW=はい(&Y)
+IDCANCEL=いいえ(&N)
+
+[rcengine.connectpopupdlg]
+MSG_NOT_SUPPORT_DIRETORY_SEND=ディレクトリ転送はサポートされていません。
+MSG_REMOTE_SUPPORT_STOP_QUESTION=リモート接続を終了しますか？
+IDC_SUPPORT_MSG_STATIC=オペレータPCに接続確認中
+IDC_SUPPORT_MSG_STATIC_RVIEW=遠隔コンピュータに接続トライ中です。
+IDC_SUPPORT_MSG_STATIC_NATEON=遠隔コンピュータに接続トライ中です。
+IDC_SUPPORTING_MSG_STATIC=オペレータがリモート接続中です。
+IDC_SUPPORTING_MSG_STATIC_RVIEW=相手より遠隔操作中です。
+IDC_SUPPORTING_MSG_STATIC_NATEON=相手より遠隔操作中です。
+IDC_KBDMOUSE_GET=キーボード/マウス制御の中断：Ctrl + Alt + Shift
+IDC_KBDMOUSE_PASS=キーボード/マウス制御権を譲渡 :
+IDC_KBDMOUSE_SEND_OK=確認
+IDC_DISCONNECT=接続終了
+MSG_REMOTE_PRINTER_INSTALL_SUCCESS=遠隔プリンターのドライバーインストール完了
+MSG_REMOTE_PRINTER_REMOVE_SUCCESS=遠隔プリンターのドライバーアンインストール完了
+MSG_REMOTE_PRINTER_INSTALL_FAIL=遠隔プリンターのドライバーインストール失敗
+MSG_REMOTE_PRINTER_REMOVE_FAIL=遠隔プリンターのドライバーアンインストール失敗
+
+[rcengine.filesendconfirmdlg]
+IDC_TITLE=ファイル転送確認
+IDC_SFTP_SEND_MSG_STAIC=選択されたファイル %d個を送信しようとしています。ファイル転送を許可するには[転送]ボタンをクリックしてください。
+MSG_FILESEND_QUESTION=ファイルを転送しますか？
+MSG_FILESEND_CONFIRM_TITLE=ファイル転送確認
+IDOK=転送
+IDCANCEL=キャンセル
+
+[rcengine.kbdmouseallowdlg]
+IDC_TITLE=制御権の要請
+;IDC_KBDMOUSE_ALLOW_MSG=オペレータがマウス/キーボードの制御権を要請しています。\n承諾しますか？
+IDC_KBDMOUSE_ALLOW_MSG=オペレータにマウス/キーボード使用を許可しますか?\nいつでも'Ctrl + Alt + Shift'を押せば制御権取り戻すことができます。
+IDC_MOUSE_CHECK=マウス
+IDC_KBD_CHECK=キーボード
+IDOK=はい
+IDCANCEL=いいえ
+
+[rcengine.simpleftpprocessdlg]
+IDC_SEND_TITLE=ファイル送信
+IDC_RECEIVE_TITLE=ファイル受信
+IDC_TRANSFER_STOP=中断
+MSG_FILESEND_CANCEL_TITLE=ファイル転送中止
+MSG_FILESEND_CANCEL=ファイル転送を中止しますか？
+MSG_FILERECEIVE_CANCEL_TITLE=ファイル受信中止
+MSG_FILERECEIVE_CANCEL=ファイル受信を中止しますか？
+
+[rcengine.SFTPLink.DIALOG]
+ID_CAPTION = ファイル受信確認
+IDCS_EXIST = 既に　'%s'　ファイルが存在しています。
+IDCS_OLDFILE = 既存のファイルを
+IDCS_NEWFILE = このファイルに上書きしますか。
+IDC_CHECK_LINK = ダウンロード再開
+IDCS_FILE_DATE = %Y年 %m月 %d日 %H:%M:%S 修正
+IDOK = はい
+IDNO = いいえ
+IDALLOK= 全てはい
+IDCANCEL= キャンセル
+
+[rcengine.tray.menu]
+ID_ALLWAYS_ONTOP=ポップアップウィンドウを常時上に(&N)
+ID_DRAW_REQUEST=描画ツール(&D)
+ID_CHAT_REQUEST=チャット要請(&C)
+ID_PROCLIST_REQUEST=実行プロセス表示(&P)
+ID_SYSINFO_REQUEST=システム情報表示(&S)
+ID_CAMREC=録画(&R)
+ID_FILE_SEND=ファイル転送(&F)
+ID_RECV_FOLDER_OPEN=受信ファイル開く(&V)
+ID_REMOTE_PRINTER_DRIVER_CONTROL_INSTALL=遠隔プリンターインストール(&I)
+ID_REMOTE_PRINTER_DRIVER_CONTROL_REMOVE=遠隔プリンター除去(&M)
+ID_SHAREAPP_SEL=アプリケーション共有(&A)
+ID_CLOSE=リモート接続終了(&O)
+
+[rcchat.resources]
+IDC_TITLE=対話ウィンドウ
+IDC_SEND=送信
+IDC_SEND_MESSAGE=<送信メッセージ>:
+IDC_RECV_MESSAGE=<受信メッセージ>:
+
+[rcchat.menu]
+ID_FILE=ファイル(&F)
+ID_FILE_SAVE_CHAT=チャット内容の保存(&S)
+ID_FILE_EXIT=終了(&X)
+ID_TOOL=ツール(&T)
+ID_TOOL_ALWAYS_TOP=常に上(&N)
+
+
+[rcprocl.resources]
+IDC_TITLE=実行プロセス一覧
+IDC_PROCESS_REFRESH=再読込み
+IDC_PROCESS_KILL=プロセスの終了
+IDC_PROCESS_CLOSE=閉じる
+IDC_COLUMN_FILENAME=ファイル名
+IDC_PROCESS_KILL_TITLE=プロセスの終了
+IDC_PROCESS_KILL_MSG=%sを強制終了しますか？
+IDC_PROCESS_LIST_LOADING=プロセス情報を取得中です。
+IDC_PROCESS_LIST_INFORMATION=%s PCのプロセス情報
+
+ID_PATH_COPY=コピー
+ID_LIST_COPY=リストコピー
+
+[rcsysinfo.resources]
+IDC_TITLE=システム情報
+IDC_SYSINFO_REFRESH=再読込み
+IDC_SYSINFO_INFORMATION=%s PCのシステム情報
+IDC_SYSINFO_LOADING=システム情報を取得中です。
+
+[rsproxy.findproxydlg]
+IDC_TITLE=Proxyサーバの選択
+IDC_PROXY_SERVER_SELECT_MSG=Proxyサーバを選択してください
+IDOK=選択
+IDCANCEL=キャンセル
+
+[rsproxy.proxylogindlg]
+IDC_TITLE=Proxyサーバへのログイン
+IDC_PROXY_AUTH_INPUT_MSG=ProxyサーバのユーザIDを入力してください
+IDC_PROXY_SERVER_MSG=Proxyサーバ :
+IDC_PROXY_ID_MSG=ユーザID :
+IDC_PROXY_PWD_MSG=ユーザーパスワード :
+IDC_SAVE_CHECK=保存
+IDOK=確認
+IDCANCEL=キャンセル
+
+[rsproxy.weblogindlg]
+IDC_TITLE=Webサーバへのログイン
+IDC_WEB_AUTH_INPUT_MSG=WebサーバのユーザIDを入力してください
+IDC_WEB_SERVER_MSG=Webサーバ :
+IDC_WEB_ID_MSG=ユーザID :
+IDC_WEB_PWD_MSG=ユーザーパスワード :
+IDC_SAVE_CHECK=保存
+IDOK=確認
+IDCANCEL=キャンセル
+
+[RDRAW.MENU]
+;//RMarkingに使用
+;//////////////////////////////////////////////////////////////////////////////Start
+;//----------------------------------------
+;// 描画メニュー
+;//----------------------------------------
+
+; 矢印
+ID_DRAW_ARROW = 矢印
+ID_DRAW_ARROW_BOTH = 双方向矢印
+
+; ライン
+ID_DRAW_LINEWIDTH_1 = 1 pixel ライン
+ID_DRAW_LINEWIDTH_2 = 2 pixel ライン
+ID_DRAW_LINEWIDTH_3 = 3 pixel ライン
+ID_DRAW_LINEWIDTH_4 = 4 pixel ライン
+ID_DRAW_LINEWIDTH_5 = 5 pixel ライン
+ID_DRAW_LINEWIDTH_6 = 6 pixel ライン
+ID_DRAW_LINEWIDTH_7 = 7 pixel ライン
+
+; 消しゴム
+ID_DRAW_ERASER = 選択消去
+ID_DRAW_ERASER_ALL =全体消去
+;//////////////////////////////////////////////////////////////////////////////End
+[TOOLBAR]
+;//////////////////////////////////////////////////////////////////////////////Start
+ID_DRAWTOOLBAR_CAPTION = 描画
+;//////////////////////////////////////////////////////////////////////////////End
+
+[RText.DIALOG]
+ID_CAPTION = 表示する文字列を入力してください
+IDCS_STRING = 文字列
+IDCS_FONT_NAME = フォント名(&F)
+IDCS_FONT_STYLE = スタイル(&Y)
+IDCS_FONT_SIZE = サイズ(&S)
+IDCS_TEXT_EFFECT = 文字飾り
+IDCC_TEXT_EFFECT_STRIKEOUT = 取り消し線(&K)
+IDCC_TEXT_EFFECT_UNDERLINE = 下線(&U)
+IDCS_TEXT_EFFECT_COLOR = 色(&C)
+IDCS_PRIVIEW = サンプル
+IDCS_SCRIPT = 書体の種類(&R)
+
+[rcengine.waitconnectdlg]
+ID_CAPTION=オペレータ接続待機
+IDCS_WAITING_MSG=オペレータとの接続を待っています。
+IDCANCEL=キャンセル(&C)
+IDCS_WAITCUSTOMER_COUNT_MSG=サポート待機中顧客 : %d 名
+
+[rc40app.resources]
+IDC_TITLE=RemoteCall Client
+IDC_TITLE_MJS=iCompass Client
+IDC_TITLE_NATEON=NateOn Remote Control
+IDC_TITLE_NTT=RemoteCall Client
+IDC_TITLE_UBISUPPORTER=UbiSupporter Client
+
+MSG_CANNOT_VISTA_SUPPORT=ユーザーはWindows Vistaを使用しています。\nオペレータはVistaを使用しているユーザーをサポートすることができません。
+MSG_INVALID_GCODE=接続番号が正しくありません。\nオペレータに接続番号を確認して再入力してください。
+MSG_INVALID_PINCODE=ピンコードが正しくありません！
+
+IDC_PINCODE_DLG_TITLE=ピンコード
+IDC_INPUT_PINCODE_STATIC=オペレータより案内を受けたピンコードを入力してください。
+IDC_MANUAL_INPUT_STATIC=ピンコード :
+IDOK=確認
+
+IDC_REFRESH=更新
+IDC_SERVER_ADDRESS=サーバアドレス :
+IDC_COMPANY_ID=会社ID :
+IDC_CONNECT=接続
+IDC_VIEWER_ID=オペレータID :
+IDC_CONNECTION_CODE=接続コード :
+IDC_GCODE_INPUT_MSG_STATIC=オペレータから聞いた接続コードを入力後、接続ボタンをクリックしてください。
+
+IDC_INSTALL_MSG_STATIC=遠隔制御ドライバーを準備中です。しばらくお待ちください。
+IDC_INSTALL_DLG_TITLE=準備中
+
+[RVS.DIALOG]
+ID_CAPTION = オペレータ画面の送信
+IDC_RVSPAUSE = 停止
+IDC_RVSCONTINUE = 再開
+IDC_RVSCLOSE = 終了
+IDC_RVSDRAW = 描画
+

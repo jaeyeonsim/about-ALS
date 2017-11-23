@@ -1,0 +1,304 @@
+
+[COMMON]
+;//////////////////////////////////////////////////////////////////////////////Start
+;//----------------------------------------
+;// 共同
+;//----------------------------------------
+IDOK = 确认
+IDCANCEL = 取消
+IDAPPLY = 应用
+IDADD = 添加
+IDMODIFY = 编辑
+IDDELETE = 删除
+IDCLOSE = 关闭
+IDYES = 是
+IDNO = 否
+IDALLYES = 全部是
+IDALLNO = 全部否
+IDHELP = 帮助
+;//////////////////////////////////////////////////////////////////////////////End
+
+
+[rcmain.resources]
+MSG_GET_VIEWER_INFO_FAIL=获取服务人员信息失败。
+MSG_NOT_REGISTER_VIEWER=未注册的服务人员。
+MSG_INVALID_CONNECT_TRY=无效连接
+MSG_CANNOT_CONNECT_SELF=无法连接到自己。
+MSG_NOT_EXIST_VIEWER_RETRY=没有等待中的服务人员。请刷新页面。
+
+
+[rcengine.resources]
+MSG_NORMAL_TITLE=RemoteCall
+MSG_NORMAL_TITLE_RVIEW=RemoteView
+MSG_NORMAL_TITLE_NATEON=NATEON远程控制
+MSG_NORMAL_TITLE_MJS=iCompass
+MSG_NORMAL_TITLE_NTT=RemoteCall
+MSG_NORMAL_TITLE_UBISUPPORTER=UbiSupporter
+MSG_REMOTE_CONNECT_TRYING=远程连线中
+MSG_REMOTE_CONNECT_FAIL=连接远程计算机失败
+MSG_FILERECEIVE_TITLE=确认文件接收
+MSG_FILERECEIVE_QUESTION=对方想要发送 %d个文件。\n是否要接受?
+MSG_SFTP_TITLE=文件传送
+MSG_FILERECEIVE_REMOTE_REJECT=对方拒绝接收。
+MSG_FILESEND_SIZE_OVERFLOW=发送文件大小不能超过 %dMB 。
+MSG_REMOTE_CONNECT_TRYING_TITLE=尝试连线中
+MSG_DOING_SUPPORT_VIEWER=服务人员正在远程支援中。
+MSG_DOING_SUPPORT_VIEWER_RVIEW=对方正在远程控制中。
+MSG_DOING_SUPPORT_VIEWER_NATEON= NATEON远程控制
+MSG_DOING_SUPPORT_TRANSLATE_MSG=远程支援中
+MSG_DOING_CONTROL_TRANSLATE_MSG=远程控制中
+MSG_REBOOT_AND_RECONNECT_QUESTION=服务人员请求重新启动计算机\n重新启动后是否接收自动与服务人员连接?
+MSG_ALLSHARE_TITLE=共享全部画面
+MSG_ALLSHARE_QUESTION=对方请求共享全部画面\n是否要接收?
+MSG_UPDATE_NEED_REMOTE_PRINTER_DRIVER=RSupport Remote Printer Driver已被更新。\n如果使用远程打印功能，必须卸载之前驱动并重新安装。
+MSG_CANNOT_USE_RECONNECT_GUIDE=受限账户无法使用 [远程重新连接]功能。
+
+[rcengine.appshselector]
+IDC_TITLE=选择共享程序
+IDC_PROGRAM_SELECT_STATIC=选择程序
+IDC_APPSHARE_SELECT_MSG_STATIC=选择下列目录中需要共享的程序或者把右边的Finder Tool图标拖动到所要共享的程序当中。
+IDB_REFRESH=更新目录
+IDB_SHARE_FULL=全部共享
+IDB_SHARE=选择共享
+IDCANCEL=取消
+
+[rcengine.appshareconfirm]
+IDC_TITLE=程序共享请求
+IDC_SHARE_CONFIRM_MSG_STATIC=对方向以下目录发送了程序共享请求。\n是否要接收?
+IDC_SHARE_ALLOW=是(&Y)
+IDCANCEL=否(&N)
+
+
+[rcengine.connectpopupdlg]
+MSG_NOT_SUPPORT_DIRETORY_SEND=不支持传送文件夹。
+MSG_REMOTE_SUPPORT_STOP_QUESTION=中止连接吗?
+IDC_SUPPORT_MSG_STATIC=与服务人员计算机进行连线中。
+IDC_SUPPORT_MSG_STATIC_RVIEW=与远程计算机进行连线中。
+IDC_SUPPORT_MSG_STATIC_NATEON=与远程计算机进行连线中。
+IDC_SUPPORTING_MSG_STATIC=服务人员正在远程支援中。
+IDC_SUPPORTING_MSG_STATIC_RVIEW=对方正在远程控制中。
+IDC_SUPPORTING_MSG_STATIC_NATEON=远程支援中。
+IDC_KBDMOUSE_GET=键盘/中止鼠标控制 : Ctrl + Alt + Shift
+IDC_KBDMOUSE_PASS=键盘/转让鼠标控制权 :
+IDC_KBDMOUSE_SEND_OK=确认
+IDC_DISCONNECT=断开连接
+MSG_REMOTE_PRINTER_INSTALL_SUCCESS=远程打印机驱动程序安装完成
+MSG_REMOTE_PRINTER_REMOVE_SUCCESS=远程打印机驱动程序卸载完成
+MSG_REMOTE_PRINTER_INSTALL_FAIL=远程打印机驱动程序安装失败
+MSG_REMOTE_PRINTER_REMOVE_FAIL=远程打印机驱动程序卸载失败
+
+
+[rcengine.filesendconfirmdlg]
+IDC_TITLE=确认文件传送
+IDC_SFTP_SEND_MSG_STAIC=准备传送选择文件 %d个。 确认传送请点击 [传送]按钮。
+MSG_FILESEND_QUESTION=是否传送文件?
+MSG_FILESEND_CONFIRM_TITLE=确认文件传送
+IDOK=传送
+IDCANCEL=取消
+
+[rcengine.kbdmouseallowdlg]
+IDC_TITLE=鼠标/键盘控制请求
+IDC_KBDMOUSE_ALLOW_MSG=是否允许服务人员使用鼠标/键盘?\n只要按 'Ctrl + Alt + Shift'键即可随时取消控制权。
+IDC_MOUSE_CHECK=鼠标
+IDC_KBD_CHECK=键盘
+IDOK=同意
+IDCANCEL=拒绝
+
+
+[rcengine.simpleftpprocessdlg]
+IDC_SEND_TITLE=文件发送
+IDC_RECEIVE_TITLE=文件接收
+IDC_TRANSFER_STOP=中止
+MSG_FILESEND_CANCEL_TITLE=取消文件传送
+MSG_FILESEND_CANCEL=是否要取消文件传送?
+MSG_FILERECEIVE_CANCEL_TITLE=取消文件接收
+MSG_FILERECEIVE_CANCEL=是否要取消文件接收?
+
+
+[rcengine.SFTPLink.DIALOG]
+ID_CAPTION = 确认文件接收
+IDCS_EXIST =  '%s' 文件已经存在。
+IDCS_OLDFILE = 是否把之前文件
+IDCS_NEWFILE = 替换成此文件?
+IDC_CHECK_LINK = 继续接收
+IDCS_FILE_DATE = %Y年 %m月 %d日 %H:%M:%S 被修改
+IDOK = 是
+IDNO = 否
+IDALLOK= 全部是
+IDCANCEL= 取消
+
+
+[rcengine.tray.menu]
+ID_ALLWAYS_ONTOP=引导框总是在前面(&N)
+ID_DRAW_REQUEST=画图工具(&D)
+ID_CHAT_REQUEST=聊天请求(&C)
+ID_PROCLIST_REQUEST=查看运行进程(&P)
+ID_SYSINFO_REQUEST=查看系统信息(&S)
+ID_CAMREC=录制(&R)
+ID_FILE_SEND=文件传送(&F)
+ID_RECV_FOLDER_OPEN=打开接收文件(&V)
+ID_REMOTE_PRINTER_DRIVER_CONTROL_INSTALL=安装远程打印机(&I)
+ID_REMOTE_PRINTER_DRIVER_CONTROL_REMOVE=删除远程打印机(&M)
+ID_SHAREAPP_SEL=共享应用程序(&A)
+ID_CLOSE=关闭远程支援(&O)
+
+
+[rcchat.resources]
+IDC_TITLE=对话框
+IDC_SEND=发送
+IDC_SEND_MESSAGE=<发送信息>:
+IDC_RECV_MESSAGE=<接收信息>:
+
+[rcchat.menu]
+ID_FILE=文件(&F)
+ID_FILE_SAVE_CHAT=保存对话内容(&S)
+ID_FILE_EXIT=退出(&X)
+ID_TOOL=工具(&T)
+ID_TOOL_ALWAYS_TOP=总是在前面(&N)
+
+
+[rcprocl.resources]
+IDC_TITLE=进程运行列表
+IDC_PROCESS_REFRESH=刷新
+IDC_PROCESS_KILL=结束进程
+IDC_PROCESS_CLOSE=关闭
+IDC_COLUMN_FILENAME=文件名
+IDC_PROCESS_KILL_TITLE=结束进程
+IDC_PROCESS_KILL_MSG=是否强制结束%s?
+IDC_PROCESS_LIST_LOADING=获取进程信息中
+IDC_PROCESS_LIST_INFORMATION=%s 计算机的进程信息
+
+ID_PATH_COPY=复制
+ID_LIST_COPY=列表复制
+
+
+[rcsysinfo.resources]
+IDC_TITLE=系统信息
+IDC_SYSINFO_REFRESH=刷新
+IDC_SYSINFO_INFORMATION=%s 计算机的系统信息
+IDC_SYSINFO_LOADING=获取系统信息中。
+
+[rsproxy.findproxydlg]
+IDC_TITLE=选择代理服务器
+IDC_PROXY_SERVER_SELECT_MSG=选择代理服务器。
+IDOK=选择
+IDCANCEL=取消
+
+[rsproxy.proxylogindlg]
+IDC_TITLE=登录代理服务器
+IDC_PROXY_AUTH_INPUT_MSG=请输入代理服务器的用户帐号。
+IDC_PROXY_SERVER_MSG=代理服务器 ：
+IDC_PROXY_ID_MSG=用户名 :
+IDC_PROXY_PWD_MSG=用户密码 ：
+IDC_SAVE_CHECK=保存
+IDOK=确认
+IDCANCEL=取消
+
+[rsproxy.weblogindlg]
+IDC_TITLE=登录Web服务器
+IDC_WEB_AUTH_INPUT_MSG=请输入Web服务器的用户帐号。
+IDC_WEB_SERVER_MSG=Web服务器 ：
+IDC_WEB_ID_MSG=用户名 ：
+IDC_WEB_PWD_MSG=用户密码 ：
+IDC_SAVE_CHECK=保存
+IDOK=确认
+IDCANCEL=取消
+
+[RDRAW.MENU]
+;//Rmarking中使用
+;//////////////////////////////////////////////////////////////////////////////Start
+;//----------------------------------------
+;// 画图菜单
+;//----------------------------------------
+
+; 箭头
+ID_DRAW_ARROW = 箭头
+ID_DRAW_ARROW_BOTH = 双向箭头
+
+; 线
+ID_DRAW_LINEWIDTH_1 = 1 pixel
+ID_DRAW_LINEWIDTH_2 = 2 pixel
+ID_DRAW_LINEWIDTH_3 = 3 pixel
+ID_DRAW_LINEWIDTH_4 = 4 pixel
+ID_DRAW_LINEWIDTH_5 = 5 pixel
+ID_DRAW_LINEWIDTH_6 = 6 pixel
+ID_DRAW_LINEWIDTH_7 = 7 pixel
+
+; 橡皮擦
+ID_DRAW_ERASER = 选择擦除
+ID_DRAW_ERASER_ALL = 全部擦除
+;//////////////////////////////////////////////////////////////////////////////End
+
+
+[TOOLBAR]
+ID_DRAWTOOLBAR_CAPTION = 画图
+
+; 文本 dialog
+[RText.DIALOG]
+ID_CAPTION = 请输入标示的字符窜
+IDCS_STRING = 字符窜
+IDCS_FONT_NAME = 字体(&F)
+IDCS_FONT_STYLE = 字体类型(&Y)	
+IDCS_FONT_SIZE = 大小(&S)
+IDCS_TEXT_EFFECT = 效果
+IDCC_TEXT_EFFECT_STRIKEOUT = 取消线条(&K)
+IDCC_TEXT_EFFECT_UNDERLINE = 下划线(&U)
+IDCS_TEXT_EFFECT_COLOR = 颜色(&C)
+IDCS_PRIVIEW = 预览
+IDCS_SCRIPT = 脚本(&R)
+
+
+[rcengine.waitconnectdlg]
+ID_CAPTION=等待与服务人员连线
+IDCS_WAITING_MSG=等待与服务人员连线中。
+IDCANCEL=取消(&C)
+IDCS_WAITCUSTOMER_COUNT_MSG=等待连线的用户 : %d 名
+
+
+[rc40app.resources]
+IDC_TITLE=RemoteCall Client
+IDC_TITLE_MJS=iCompass Client
+IDC_TITLE_NATEON=NateOn Remote Control
+IDC_TITLE_NTT=RemoteCall Client
+IDC_TITLE_UBISUPPORTER=UbiSupporter Client
+
+MSG_CANNOT_VISTA_SUPPORT=您的计算机正使用 Windows Vista 操作系统。\n服务人员目前无法支援 Vista 用户。\n请与服务人员确认。
+MSG_INVALID_GCODE=连接代码不对。\n请与服务人员确认代码后重新输入。
+MSG_INVALID_PINCODE=PIN代码不正确。
+
+IDC_PINCODE_DLG_TITLE=PIN代码
+IDC_INPUT_PINCODE_STATIC=请输入从服务人员获得的PIN代码。
+IDC_MANUAL_INPUT_STATIC=PIN代码 ：
+IDOK=确认
+
+
+IDC_REFRESH=刷新
+IDC_SERVER_ADDRESS=服务器地址 ：
+IDC_COMPANY_ID=公司ID ：
+IDC_CONNECT=连接
+IDC_VIEWER_ID=服务人员ID :
+IDC_CONNECTION_CODE=连接代码 ：
+IDC_GCODE_INPUT_MSG_STATIC=请输入从服务人员获得的连接代码后点击连接按钮。
+
+IDC_INSTALL_MSG_STATIC=准备远程控制驱动中。请稍候。
+IDC_INSTALL_DLG_TITLE=准备中
+
+MSG_ICON_SELECT=Connect
+MSG_INVALID_PINCODE_TITLE=RemoteCall Client
+
+[rc40app.useragreedlg]
+IDC_TITLE=Remote Support Agreement
+IDC_KBDMOUSE_ALLOW_MSG=由于通过电话服务无法有效沟通，本人同意临时共享PC画面，并允许服务人员 远程控制，对此引发的所有责任由本人负责。
+IDC_MOUSE_CHECK=同意鼠标控制
+IDC_KBD_CHECK=同意键盘控制
+IDOK=同意
+IDCANCEL=取消
+
+[RVS.DIALOG]
+ID_CAPTION = 显示服务人员画面
+IDC_RVSPAUSE = 中止 
+IDC_RVSCONTINUE = 继续
+IDC_RVSCLOSE = 关闭
+IDC_RVSDRAW = 画图
+
+
